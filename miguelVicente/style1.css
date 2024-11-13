@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(45, 0, 82)	;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1000px;
+    top: 0%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+
+}
+.imagem{
+    float: right;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: rgb(172, 92, 238);
+    padding: 25px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family:initial;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#home{
+    padding-top: 50px;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+
+.titulo{
+    color: rgb(147, 107, 180);
+    font-family: Arial;
+    text-align: center;
+
+}
+
+.paragrafo{
+    color:white ;
+    font-family: Arial;
+    font-size: small;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+
+}
+
+.cards{
+    background-color: rgb(122, 0, 61);
+    text-align: center;
+    padding: 20px;
+    flex: 1; 
+    border-radius: 5px;
+    margin: 5%;
+}
+
+.subtitulo{
+    font-family: Arial;
+    color: orangered;
+    text-align: center;
+}
+
+.currents{
+    color: blueviolet;
+    font-family: Arial;
+    text-align: center;
+}
+
+.rush{
+    color: red;
+    font-family: Arial;
+    text-align: center;
+}
+
+.Lonerism{
+    color: aquamarine;
+    font-family: Arial;
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgb(80, 0, 145);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.a{ 
+    color: white;
+
+}

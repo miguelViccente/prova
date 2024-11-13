@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Página 2</title>
+</head>
+<body>
+  
+  <script>
+  document.getElementById("goToPage1").onclick = function() {
+            window.location.href = "index.html";
+  };
+  </script>      
+
+    
+    <div class="container">
+        <h1>Bem-vindo à Página 2</h1>
+        <p>Esta é a segunda página.</p>
+        <button id="goToPage1">Voltar para Página 1</button>
+
+        <form class="row g-3">
+          <div class="form-group">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group">
+              <label for="inputPassword4" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="form-group">
+              <label for="inputAddress" class="form-label">Endereço</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Casa">
+          </div>
+          <div class="form-group">
+              <label for="inputAddress2" class="form-label">Endereço 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, trabalho, ou andar">
+          </div>
+          <div class="form-group">
+              <label for="inputCity" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group">
+              <label for="inputState" class="form-label">Estado civil</label>
+              <select id="inputState" class="form-select">
+                  <option selected>Escolha...</option>
+                  <option>Solteiro</option>
+                  <option>Casado</option>
+                  <option>Divorciado</option>
+                  <option>Viúvo</option>
+              </select>
+          </div>
+          <div class="form-group">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="form-group">
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                      Me lembrar
+                  </label>
+              </div>
+          </div>
+          <div class="form-group">
+              <button type="submit" class="btn btn-primary">Entrar</button>
+          </div>
+      </form>
+    </div>
+
+    
+</body>
+</html>
